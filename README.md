@@ -12,7 +12,7 @@ pip3 install -r requirement.txt
 ```
 usage: main.py    [--mode 'train']
                   [--ModelPath 'Model']
-                  [--linesToTrain 20000]
+                  [--linesToTrain 10000]
                   [--data_sent_path './data_all.csv']
                   [--data_answer_path './taskA_answers_all.csv']
                   [--epochs 3]
