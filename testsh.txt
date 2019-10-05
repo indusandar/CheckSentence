@@ -1,3 +1,6 @@
+#git clone
+git clone https://github.com/
+
 #test predict
 sh main.sh -t "He drinks milk" -p "../../Model"
 sh main.sh -t "He drinks apple" -p "../../Model"
