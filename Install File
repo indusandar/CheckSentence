@@ -1,0 +1,8 @@
+# Run the following commands after copying the Project folder
+cd project
+cd dist
+sh main.sh
+# Script to run the model estimation for n number of lines. The actual file size is for 10000 lines.
+sh main.sh -p "../../Model" -m "estimate" -s "../../data_all.csv" -o "../" -n 1000
+# to find the accuracy of the project
+sh main.sh  -m "getAcc" -a "../../taskA_answers_all.csv" -o "../"
